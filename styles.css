@@ -1,0 +1,41 @@
+.big-container {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.grid-container {
+  background-color: whitesmoke;
+  border: 1px solid black;
+  display: grid;
+  width: 40vw;
+  aspect-ratio: 1;
+  
+ 
+}
+.button-container {
+  width: max-content;
+  background-color: tomato;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 7vw;
+  justify-content: space-evenly;
+  
+}
+
+button {
+  font-size: 1.125rem;
+  width: 100%;
+}
+
+.square {
+  border: 1px solid black;
+}
+
+.header {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
